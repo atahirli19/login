@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .main-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-holder {
+    width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  fieldset{
+    width: 100%;
+  height: 150px;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  border-color: rgb(221, 0, 255);
+
+}
+.info div label{
+    color: blue;
+}
+
+.form-holder button{
+    align-self: center;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(204, 0, 255);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    transition: 0.5s;
+}
+legend{
+    color: rgb(204, 0, 255);
+}
